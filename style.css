@@ -1,0 +1,137 @@
+
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background-color: hsl(30, 38%, 92%);
+  max-height: 100vh;
+  margin-left: 5px;
+}
+
+
+.container{
+    background-color: aliceblue;
+    width: 600px;
+    border-radius: 10px;
+    display: inline-flex;
+    margin-top: 40px;
+}
+.imagem{
+    background-image: url(images/image-product-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: 300px;
+    width: 300px;
+    border-radius: 10px 0px 0px 10px;
+    position: relative;
+    display: inline-flex;
+}
+.imagem img{
+    width: 300px;
+    border-radius: 10px 0px 0px 10px;
+    position: relative;
+    display: inline-flex;
+}
+
+.descricao{
+    width: 300px;
+    position: relative;
+    padding: 10px 20px 20px 20px;
+}
+
+.th3{
+    font-size: medium;
+    color: rgb(184, 184, 192);
+}
+
+.btn{
+    width: 250px;
+    height: 40px;
+    background-color: green;
+    color: rgb(234, 239, 234);
+    border-radius: 10px;
+    align-items: center;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: rgb(2, 62, 2);
+}
+.preco{
+    color: green;
+    font: 25px bold;
+    display: inline-flex;
+
+}
+
+.preco2{
+    color: rgb(82, 79, 79);
+    text-decoration: line-through;
+    display: inline-flex;
+    font-size: small;
+    padding-left: 20px;
+    padding-bottom: 20px;
+
+}
+.th1{
+    color: rgb(84, 80, 80);
+}
+
+
+
+.attribution { 
+    font-size: 11px; text-align: center;
+    position: fixed;
+    top: 500px;
+ }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@media (max-width: 700px){
+
+    body {
+        margin: 2px 2px 2px 2px;
+      }
+
+    .container{
+        background-color: aliceblue;
+        width: 375px;
+        border-radius: 10px;
+        display: grid;
+        padding: 0px 0px 0px 0px;
+        margin: 0px 0px 0px 0px;
+    }
+    .imagem{
+        background-image: url(images/image-product-mobile.jpg);
+        background-repeat: no-repeat;
+        background-size: 375px;
+        width: 375px;
+        height: 150px;
+        border-radius: 10px 10px 0px 0px;
+    }
+    
+    .descricao{
+        width: 300px;
+        display: inline-block;
+        padding: 10px 20px 20px 20px;
+    }
+
+    .attribution { 
+        top: 550px;
+     }
+
+     .btn{
+        width: 330px;
+        height: 40px;
+        background-color: green;
+        color: rgb(234, 239, 234);
+        border-radius: 10px;
+        align-items: center;
+    }
+
+
+
+}
+
